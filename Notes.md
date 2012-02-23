@@ -117,11 +117,11 @@ UAG doesn't bridge non-MS products. Library use case is user experience. 'Consis
 
 [SAMLPHP](http://simplesamlphp.org/) as representative of what we might produce.
 
-Diagrams for where we are, where we might go, where we could go.
+Diagrams for where we are, where we intend to go.
 
-![Current](http://mouapp.com/Mou_128.png)
+![Current](https://github.com/lncd/AIM-project/raw/master/SSOCurrentSituation.png)
 
-![Desired](http://w.png)
+![Desired](https://github.com/lncd/AIM-project/raw/master/SSOIdealSituation.png)
 
 Library to provide immediate use case - Dave Marston/Paul. 
 
