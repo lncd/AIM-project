@@ -1,6 +1,6 @@
 # README
 
-# Oh Auth, too.
+# Oh. Auth, too.
 
 This project will provide a detailed case study of the use of OAuth as an authorisation protocol at the University of Lincoln. Working closely with the university Library, we will examine how the OAuth 2.0 specification can be integrated into a single sign on environment alongside Athens, EZProxy and Microsoft's Unified Access Gateway.
 
