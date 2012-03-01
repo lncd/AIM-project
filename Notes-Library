@@ -1,0 +1,36 @@
+JISC strongly encourage HEIs to run own Shib servers. Smaller HEIs (inc Lincoln) often outsource Shibboleth to Open Athens.
+
+EZProxy is a URL rewriting service. Spoofs an IP address. Quick and dirty hack. Knows nothing about identity of user, only access to resources. Access problems 'resolved'. EZProxy only provides access. We run it here. Publishers have to implement FAM, little consistency about how 'service providers' implement FAM. No predicatable path for authenticating user against resources via FAM. Pretending the user is on campus. No identity provision in EZProxy.
+
+Identity providers
+Service providers
+
+Consistent sign on vs single sign on.
+
+Consistent user experience across resources.
+
+People distracted by single sign on. Adding value to resource access. More control over richer profile information sent to publishers, etc.
+
+E-resources run off Portal. Doesn't expose any info about the user. All we can tell service providers is whether staff or student. 
+
+EPrints/Orbital/WordPress/Mahara = Linux based applications.
+
+Need more info on UAG.
+
+EZProxy is not SAML but is Windows application. 
+
+Dealing with AIM under contractual arrangements (publishers) and AIM at the level of how a user interacts with data (i.e. Orbital). 
+
+Where is Nucleus in the diagram? See 'building staff profiles'
+
+ICT will install Open Athens LA (id provider) and SP (service provider) (SAML) for Library. 
+
+How do they talk to the AD so the user has a consistent experience (1) of all apps?
+
+Can we pass more information up/down the chain than we do at present (2). Can we implement new products more easily (3).
+
+Use Case:
+
+1) a consistent experience
+2) richer exchange of user information
+3) easier implementation of new products

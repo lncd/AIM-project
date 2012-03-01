@@ -1,10 +1,13 @@
 # Access and Identity (E1)
 
-OAuth 2.0 specification going for ratification end of February. Includes the OAuth to SAML interoperability extension. No public implementation of that extension for OAuth 2.0 that we're aware of. 
+OAuth 2.0 specification going for ratification end of February?? Includes the OAuth to SAML interoperability extension. No public implementation of that extension for OAuth 2.0 that we're aware of. 
 
 4th June - 31st May 2013.
 
-£50K
+up to £50K
+
+Deadline March 16th.
+
 
 > to develop the technologies and strategies for future developments particularly in the areas of identity management and user centric systems, and to improve the practices, policies and technologies surrounding Access and Identity Management within institutions so that they can meet their moral and legal obligations, increase organisational efficiency and flexibility, and improve user experience."
 
@@ -128,3 +131,45 @@ Library to provide immediate use case - Dave Marston/Paul.
 Security of open source? Penetration test it as part of the product testing. 
 
 Tie in with Orbital project and Nick's work on full OAuth implementation. 
+
+# Notes from Library meeting
+
+JISC strongly encourage HEIs to run own Shib servers. Smaller HEIs (inc Lincoln) often outsource Shibboleth to Open Athens.
+
+EZProxy is a URL rewriting service. Spoofs an IP address. Quick and dirty hack. Knows nothing about identity of user, only access to resources. Access problems 'resolved' by other means? EZProxy only provides access. We run it here. Publishers have to implement FAM, little consistency about how 'service providers' implement FAM. No predicatable path for authenticating user against resources via FAM. Pretending the user is on campus. No identity provision in EZProxy.
+
+Identity providers
+Service providers
+
+Consistent sign on vs single sign on.
+
+Consistent user experience across resources.
+
+People distracted by single sign on. Adding value to resource access. More control over richer profile information sent to publishers, etc.
+
+E-resources run off Portal. Doesn't expose any info about the user. All we can tell service providers is whether staff or student. 
+
+EPrints/Orbital/WordPress/Mahara = Linux based applications.
+
+Need more info on UAG from OST.
+
+EZProxy is not SAML but is Windows application. 
+
+Dealing with AIM under contractual arrangements (publishers) and AIM at the level of how a user interacts with data (i.e. Orbital). 
+
+Where is Nucleus in the diagram? See 'building staff profiles'. Not relevant. 
+
+ICT will install Open Athens LA (id provider) and SP (service provider) (SAML) for Library. 
+
+How do they talk to the AD so the user has a consistent experience (1) of all apps?
+
+Can we pass more information up/down the chain than we do at present (2). Can we implement new products more easily (3).
+
+# Use Case:
+
+Student experience drives the need for:
+
+1) a consistent experience
+2) richer exchange of user information
+3) easier development/implementation of new products
+
