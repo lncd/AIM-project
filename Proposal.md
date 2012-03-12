@@ -12,7 +12,7 @@ The primary driver for this is to improve the student experience and meet the fo
 2. A consistent user experience (UX): We are aiming for ‘consistent sign on’ rather than 'single sign on', where the user is presented with a consistent UX when signing into disparate applications.
 3. Rapid deployment: New applications that we develop or purchase should be easier to implement, plugging into either OAuth or the UAG and immediately benefiting from 1) and 2).
 
-## Context
+### Context
 
 One of the lasting outcomes of our Total Recal ‘rapid innovation’ project in 2010, was that Alex Bilbie wrote the first (and only) OAuth 2.0 server for the CodeIgniter PHP development framework that we use. Since then, he’s been refining it and with every new project, we’ve been using it as part of our API-driven approach to development. As far as we know, the use of the OAuth 2.0 specification, which should be finalised at a forthcoming IETF meeting, is not yet being used by any other university in the UK. There are some examples of OAuth revision A in use in the sector, but not OAuth 2.0, which is a major revision currently in its 23rd draft.
 
@@ -23,7 +23,7 @@ Following a recent meeting between ICT and the Library, we agreed to take the fo
 3. All systems must implement web-based single sign on via OAuth, SAML or ADFS, using either the Microsoft Unified Access Gateway (UAG) or the OAuth server, which will include the 'SAML 2.0 Bearer Assertion Profiles for OAuth 2.0' specification.
 
 
-## Building on recent innovation
+### Building on recent innovation
 
 Since the Total Recal project, we’ve used OAuth 2.0 for a number of projects: Jerome, data.lincoln.ac.uk, Zendesk, Get Satisfaction, and more recently Orbital and ON Course projects.  Our single sign-on (SSO) service at https://sso.lincoln.ac.uk is the gateway to our current OAuth 2.0 implementation, which will soon be upgraded to run across two servers for redundancy. Having been researched, developed and implemented under early JISC-funded projects, OAuth 2.0 has been formally adopted by central ICT Services, and so staff and students are gradually being given control over what services their identity is bound to and what permissions those services have.
 
