@@ -43,8 +43,6 @@ We use an agile approach to developing our web services, relying on regular, act
 
 Dissemination will be both informal and formal. Community engagement will be ongoing through the project through our project blog and Twitter accounts. We have demonstrated in past projects that we maintain active project websites and use social media effectively. More formal dissemination will take place through the use of Press Releases, workshops, case studies, conference and journal papers.
 
-
-
 ### High-level Workplan
 
 ### Anticipated Technical Approach
@@ -58,8 +56,11 @@ Drawing of intended implementation: https://github.com/lncd/AIM-project/raw/mast
 ### Benefits
 
 We believe this is a distinctive bid that clearly builds on previous JISC-funded projects. It offers a number of benefits to project stakeholders:
-6.2 To students and academic staff: Researchers will benefit from a state-of-the-art research data management infrastructure with supporting training, documentation and policy. Through the re-use and integration with other services such as the Institutional Repository, My Calendar and the Jerome discovery tool, researchers will enjoy a richer, more integrated research environment that helps foster cross-disciplinary collaboration internal and external to the university. Researchers and their partners will be assured that their data is stored and transported securely, conforming to third-party certification where appropriate. A web-based service will provide tools for accessing, querying and downloading the data where appropriate.6.3 To technical staff: An opportunity to further learn, develop and embed recently adopted technologies (MongoDB, OAuth, HTML5, etc.) and provide appropriate training to staff outside the immediate project team resulting in broader staff development opportunities. The prestige of receiving funding for the project would provide us with further leverage to introduce new ideas, technologies and practices in our day-to-day work. We recognise the need for continued innovation in our online services and welcome the opportunity for peer-review that the community engagement and dissemination requirements of externally funded projects bring to our work.6.4 To the University of Lincoln: As with our Institutional Repository project, the Orbital project will provide the opportunity to both develop the requisite policy and technical infrastructure for managing research data at the university as well as lead to institutional change in terms of researcher practices and broadening the skills and experience of our ICT staff. Whereas some of our previous JISC-funded projects have focused on ‘rapid innovation’, the remit of the Orbital project is much broader and with high-level endorsement will lead to the long-term adoption of new practices, policy and technologies. The Orbital project will also provide the university with a clearer framework for managing research data, making it more straightforward to provide assurances to funders of our research, such as the Research Councils.6.5 To the university sector: We aim to demonstrate efficiency through the re-use of previous JISC-funded projects at the University and offer an assurance that the project will lead to￼6
-a service that is used. We will also re-use other funded work such as the ERIM, IDMB26 and DPM- ESRC27 projects, as well as adapting the training materials produced under the MRD programme.6.6 To the public: Where appropriate, data will be publicly accessible from our http://data.lincoln.ac.uk service, possibly pre-empting the need for FOI requests and ensuring the upmost transparency with regards to our research processes. Consumers of open data will benefit from attractive, well-documented APIs.
+To students and academic staff: 
+To technical staff: 
+To the University of Lincoln: 
+To the university sector: 
+To the public: 
 
 ### Stakeholder Analysis
 
