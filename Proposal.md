@@ -45,7 +45,7 @@ Drawing of intended implementation:
 
 Like our related work on staff profiles, the need to improve access and identity across the institution is becoming increasingly apparent as staff and students become accustomed to the way access and identity works elsewhere on the web. For Lincoln, a combination of OAuth and UAG is the preferred route to achieving consistent sign on across all applications, bridging both the internally facing business applications managed by ICT (e.g. Sharepoint, Exchange, Blackboard) and the more outward facing academic and social applications such as those developed and run by the Library and the Centre for Educational Research and Development.
 
-## Quality of Proposal and Robustness of Workplan
+## Our workplan
 
 ### Methodology
 
