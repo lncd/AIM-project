@@ -49,7 +49,9 @@ Like our related work on staff profiles, the need to improve access and identity
 
 ### Methodology
 
-This is a 12 month project, largely undertaken by one full-time Web Developer working in the central ICT Online Services Team (Alex Bilbie). The Principal User on the project will be Dave Masterson, Head of Electronic Library Services, who has been charged with improving the usability of our Library's online services. The Principal Investigator/Project Manager for the project will be Joss Winn, Senior Lecturer in CERD and co-ordinator of the LNCD group (http://lncd.lincoln.ac.uk). 
+This is a 12 month project, largely undertaken by one full-time Web Developer working in the central ICT Online Services Team (Alex Bilbie). The work consists of research and development as well as a full implementation, as well as the writing of a Case Study, which is our main deliverable to JISC. 
+
+The Principal User on the project will be Dave Masterson, Head of Electronic Library Services, who has been charged with improving the usability of our Library's online services. The Principal Investigator/Project Manager for the project will be Joss Winn, Senior Lecturer in CERD and co-ordinator of the LNCD group (http://lncd.lincoln.ac.uk). 
 
 The project will be run using the 'Crystal Clear' agile methodology, which we use on other development projects. Crystal Clear is characterised by the following:
 
@@ -84,30 +86,54 @@ The Linkey project will provide two main deliverables:
 
 1. A case study of our implementation of OAuth 2.0 alongside Microsoft's UAG product.
 2. Continued development of our open source OAuth 2.0 server, including an implementation of the 'SAML 2.0 Bearer Assertion Profiles for OAuth 2.0' specification and other relevant extensions to the main standard. 
+3. A public workshop on the use of OAuth 2.0 in Further and Higher Education. 
+4. A conference paper, based on our case study.
 
-Furthermore, we will
+Furthermore, we will provide draft sections of the final case study in the form of 12 monthly blog posts, allowing for early peer-review of our work. 
 
 ### Risks
 
-bar
+foo
 
 ### Sustainability
 
-foo
+The main deliverable of the Linkey project is a case study of work both on-going and planned at the University of Lincoln. The implementation work is not dependent on JISC-funding and is part of our overall ICT strategy.
+
+Our proposal is borne out of lessons learned from the JISC-funded Total ReCal, Jerome and Orbital projects. We are clearly committed to developing and improving our research, teaching and learning environments and see our work on this project as integral to this commitment. The University can demonstrate that past JISC-funded projects have led to sustained services that continue to benefit our staff, students and the wider community.We will engage in a number of ways to communicate with stakeholders throughout the project (blog, Twitter, conferences, a workshop and case study) so as to ensure that our work is widely known, understood and supported. All documentation and source code will be made available under appropriate open licenses, thus allowing for further scrutiny, re-use and improvement.
 
 ### IPR
 
+All project documentation, including the Case Study and blog, will be licensed under a CC-BY license. Code will continue to be licensed under an open source MIT license.
+
 ### Engagement with the Community
 
-foo
+We blog regularly across all projects we work on (http://lncd.lincoln.ac.uk/projects) and maintain an active Twitter account of all project work (http://twitter.com/lncd). 
+
+The software outputs of the project will be MIT licensed and developed and hosted on Github, a 'social coding' platform that encourages and facilitates code forking and collaborative development. 
+
+An announcement will be made on the IETF OAuth working group mailing list and we will use that platform as our main method of communicating project progress to the OAuth community. 
+
+We will maintain a public mailing list for discussion of OAuth 2.0 in the HE sector and invite participating projects on the programme to join.
+
+We will hold a one-day workshop at the University of Lincoln towards the end of the project to discuss our work and offer practical advice on its implementation.
+
+We will submit a conference paper, based on the case study, for presenting at a relevant conference on access and identity. 
+
+We will also contribute to any JISC and related OER programme meetings and conferences.
 
 ## Budget
 
-bar
+foo
 
 ## Previous Experience of the Project Team
 
-foo
+Alex Bilbie: Developer. Alex is a developer for the online services team within IT Services and a part time Computer Science student. He developed the Common Web Design and the University’s OAuth Single Sign On platform. He is a contributor to the CodeIgniter PHP framework and has also contributed to the HTML5 Boilerplate framework, WordPress and the OAuth 2.0 specification.
+
+Dave Masterson: Head of Electronic Library Services. 
+
+Tim Simmonds: Online Services Team Manager. Tim has worked for the university for over 20 years and is in charge of all online services managed by the ICT department. He will bring this experience to the project and represent ICT Services as a Stakeholder, overseeing the implementation of the UAG and OAuth implementations.
+
+Joss Winn: Project Manager. Joss is a Senior Lecturer in the Centre for Educational Research and Development and has been Project Manager on a number of JISC-funded projects (JISCPress, ChemistryFM, Total Recal, Linking You, Orbital, ON Course). He will manage the Project and report to JISC and other Stakeholders. Joss joined the University in 2007 to work on the implementation of the Institutional Repository and is Co-ordinator of the LNCD group, an institution-wide group focusing on technology for education.
 
 ## FOI Tick List
 
