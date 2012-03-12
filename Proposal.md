@@ -9,9 +9,7 @@ The Linkey project will provide JISC and the community with a Case Study and rel
 The primary driver for this is to improve the student experience and meet the following objectives:
 
 1. Richer sharing of data between applications: A student or lecturer should be able to identity themselves to multiple applications and approve access to the sharing of personal data between those applications.
-
 2. A consistent user experience (UX): We are aiming for ‘consistent sign on’ rather than 'single sign on', where the user is presented with a consistent UX when signing into disparate applications.
-
 3. Rapid deployment: New applications that we develop or purchase should be easier to implement, plugging into either OAuth or the UAG and immediately benefiting from 1) and 2).
 
 ## Context
@@ -21,9 +19,7 @@ One of the lasting outcomes of our Total Recal ‘rapid innovation’ project in
 Following a recent meeting between ICT and the Library, we agreed to take the following steps to achieving our stated objectives:
 
 1. All library (and ICT) applications that we operate internally must have Active Directory sign-in instead of local databases. Almost all of our applications achieve this already. This is the first step towards step (3).
-
 2. All web-based applications must offer a consistent looking sign-in screen based on the current http://sso.lincoln.ac.uk design (which uses the Common Web Design). This is the second step towards (3).
-
 3. All systems must implement web-based single sign on via OAuth, SAML or ADFS, using either the Microsoft Unified Access Gateway (UAG) or the OAuth server, which will include the 'SAML 2.0 Bearer Assertion Profiles for OAuth 2.0' specification.
 
 
@@ -33,15 +29,27 @@ Since the Total Recal project, we’ve used OAuth 2.0 for Jerome, data.lincoln.a
 
 Most recently, the Orbital project has extended our OAuth 2.0 server to include some of the optional parts of the specification which we’ve not been using at Lincoln, such as refresh tokens and using HTTP Authentication with the client credentials flow. This means that the server is able to drop straight in to a wider range of projects and services. However, many of our larger applications, such as Exchange, Blackboard, OpenAthens, EPrints and Sharepoint, remain disparate from one another, with no sharing of data, except for that provided by the Active Directory. 
 
-Drawing of current AIM process: https://github.com/lncd/AIM-project/raw/master/SSOCurrentSituation.png
+Drawing of current AIM process: 
+
+![Current situation](https://github.com/lncd/AIM-project/raw/master/SSOCurrentSituation.png)
 
 ## Quality of Proposal and Robustness of Workplan
 
 ### Methodology
 
-We use an agile approach to developing our web services, relying on regular, active input from users, working iteratively on short 1-2 week code sprints. To support this methodology, we use a tool-set incorporating Codeigniter, a PHP development framework, Github, a distributed source-code repository and Pivotal Tracker, for project and personal task management. For this project, we will also use our institutional Get Satisfaction account for supporting and managing user feedback and requests and Zen Desk for long-term support. Each of these tools is integrated at the API level, allowing us to easily tie user feedback to project tasks and to the development of code in a way that is transparent. Because we use an ‘agile’ approach to project management, much of our work will be performed iteratively, relying on close engagement with our users.
+This is a 12 month project, largely undertaken by one full-time Web Developer working in the central ICT Online Services Team (Alex Bilbie). The Principal User on the project will be Dave Masterson, Head of Electronic Library Services, who has been charged with improving the usability of our Library's online services. The Principal Investigator/Project Manager for the project will be Joss Winn, Senior Lecturer in CERD and co-ordinator of the LNCD group (http://lncd.lincoln.ac.uk). 
 
-Dissemination will be both informal and formal. Community engagement will be ongoing through the project through our project blog and Twitter accounts. We have demonstrated in past projects that we maintain active project websites and use social media effectively. More formal dissemination will take place through the use of Press Releases, workshops, case studies, conference and journal papers.
+The project will be run using the 'Crystal Clear' agile methodology, which we use on other development projects. Crystal Clear is characterised by the following:
+
+1. Seat people close together, communicating frequently and with goodwill.
+2. Get most of the bureaucracy out of their way and let them design.
+3. Get a real user directly involved.
+4. Have a good automated regression test suite available.
+5. Produce shippable functionality early and often.
+
+Within this environment, we practice open development (http://lncd.lincoln.ac.uk/about/how-we-work/), using Github as a source code repository (http://github.com/lncd) and Pivotal Tracker to iteratively manage project tasks (e.g. Our tracker for the Orbital project https://www.pivotaltracker.com/projects/366731). We have recently implemented an automated regression test suite and practice 'Constant integration' using the Jenkins software (http://orbital.blogs.lincoln.ac.uk/2012/01/18/jenkins-build-my-software/). Such an environment will support Alex on this project by ensuring that his code is available for peer-review by colleagues and publicly available for scrutiny. Code will be constantly tested by Jenkins for quality assurance and thereby provide working code for regular user testing. 
+
+Dissemination will be both informal and formal. Community engagement will be ongoing through the project through our project blog and Twitter accounts. We have demonstrated in past projects that we maintain active project websites and use social media effectively. More formal dissemination will take place through the use of Press Releases, a public workshop and the case study.
 
 ### High-level Workplan
 
@@ -49,24 +57,31 @@ Dissemination will be both informal and formal. Community engagement will be ong
 
 In the Total Recal project, we released version 1 of the server code but have learned a lot since that project through integrating OAuth with other services. Version 2 of our OAuth server is more representative of our current implementation and fully implements the latest draft (23) of the specification.
 
-At the time of writing, the current institution-wide use of OAuth is limited to Zen Desk, Gateway, Staff Directory, Student Union website and Posters@Lincoln. Projects such as Jerome, Orbital, and ON Course, as well as three 3rd year Computer Science student dissertation projects are using it, too. The plan is to use OAuth alongside Microsoft’s Unified Access Gateway (UAG), which can talk SAML to OAuth via the OAuth SAML 2.0 specification. 
+At the time of writing, the current institution-wide use of OAuth is limited to Zen Desk, Gateway, Staff Directory, Student Union website and Posters@Lincoln. Projects such as Jerome, Orbital, and ON Course, as well as three 3rd year Computer Science student dissertation projects are using it, too. The plan is to use OAuth alongside Microsoft’s Unified Access Gateway (UAG), using SAML as a bridge to OAuth via the 'SAML 2.0 Bearer Assertion Profiles for OAuth 2.0' specification.
 
-Drawing of intended implementation: https://github.com/lncd/AIM-project/raw/master/SSOIdealSituation.png
+Drawing of intended implementation: 
+
+![Intended situation](https://github.com/lncd/AIM-project/raw/master/SSOIdealSituation.png)
 
 ### Benefits
 
 We believe this is a distinctive bid that clearly builds on previous JISC-funded projects. It offers a number of benefits to project stakeholders:
-To students and academic staff: 
-To technical staff: 
-To the University of Lincoln: 
-To the university sector: 
+To students and academic staff: To technical staff: 
+To the University of Lincoln: To the university sector: 
 To the public: 
+Like our related work on staff profiles, the need to get access and identity right is becoming increasingly apparent as staff and students become accustomed to the way access and identity works elsewhere on the web. For Lincoln, a combination of OAuth and UAG is the preferred route to achieving consistent sign on across all applications, bridging both the internally facing business applications managed by ICT (e.g. Sharepoint, Exchange, Blackboard) and the more outward facing academic and social applications such as those developed and run by the Library and the Centre for Educational Research and Development.
 
 ### Stakeholder Analysis
 
+Table goes here.
+
 ### Deliverables
 
-Two of the outputs we’ll propose to JISC are a case study of this work, as well as further development of the open source server Alex and Nick have been developing including an implementation of the OAuth SAML specification that we’ll share. Like our related work on staff profiles, the need to get access and identity right is becoming increasingly apparent as staff and students become accustomed to the way access and identity works elsewhere on the web. For Lincoln, a combination of OAuth and UAG is the preferred route to achieving consistent sign on across all applications, bridging both the internally facing business applications managed by ICT (e.g. Sharepoint, Exchange, Blackboard) and the more outward facing academic and social applications such as those developed and run by the Library and the Centre for Educational Research and Development.
+The Linkey project will provide two main deliverables:
+
+1. A case study of our implementation of OAuth 2.0 alongside Microsoft's UAG product.
+2. Further development of our open source OAuth 2.0 server, including an implementation of the OAuth SAML specification and other relevant extensions to the main specification. 
+3. 
 
 ### Risks
 
