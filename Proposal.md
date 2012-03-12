@@ -8,7 +8,7 @@ The Linkey project will provide JISC and the community with a Case Study and rel
 
 The primary driver for this is to improve the student experience and meet the following objectives:
 
-1. Richer sharing of data between applications: A student or lecturer should be able to identity themselves to multiple applications and approve access to the sharing of personal data between those applications.
+1. Richer sharing of data between applications: A student or lecturer should be able to identify themselves to multiple applications and approve access to the sharing of personal data between those applications.
 2. A consistent user experience (UX): We are aiming for ‘consistent sign on’ rather than 'single sign on', where the user is presented with a consistent UX when signing into disparate applications.
 3. Rapid deployment: New applications that we develop or purchase should be easier to implement, plugging into either OAuth or the UAG and immediately benefiting from 1) and 2).
 
@@ -25,13 +25,25 @@ Following a recent meeting between ICT and the Library, we agreed to take the fo
 
 ## Building on recent innovation
 
-Since the Total Recal project, we’ve used OAuth 2.0 for Jerome, data.lincoln.ac.uk, Zendesk, Get Satisfaction, and more recently Orbital and ON Course projects.  Our single sign-on (SSO) service at https://sso.lincoln.ac.uk is the gateway to our current OAuth 2.0 implementation, which will soon be upgraded to run across two servers for redundancy. Having been research, developed and implemented under early JISC-funded projects, OAuth 2.0 has been formally adopted by central ICT Services, and staff and students are gradually being given control over what services their identity is bound to and what permissions those services have.
+Since the Total Recal project, we’ve used OAuth 2.0 for a number of projects: Jerome, data.lincoln.ac.uk, Zendesk, Get Satisfaction, and more recently Orbital and ON Course projects.  Our single sign-on (SSO) service at https://sso.lincoln.ac.uk is the gateway to our current OAuth 2.0 implementation, which will soon be upgraded to run across two servers for redundancy. Having been researched, developed and implemented under early JISC-funded projects, OAuth 2.0 has been formally adopted by central ICT Services, and so staff and students are gradually being given control over what services their identity is bound to and what permissions those services have.
 
-Most recently, the Orbital project has extended our OAuth 2.0 server to include some of the optional parts of the specification which we’ve not been using at Lincoln, such as refresh tokens and using HTTP Authentication with the client credentials flow. This means that the server is able to drop straight in to a wider range of projects and services. However, many of our larger applications, such as Exchange, Blackboard, OpenAthens, EPrints and Sharepoint, remain disparate from one another, with no sharing of data, except for that provided by the Active Directory. 
+Most recently, the Orbital project has extended our OAuth 2.0 server to include some of the optional parts of the specification which we’ve not been using at Lincoln, such as refresh tokens and using HTTP Authentication with the client credentials flow. This means that the server is able to drop straight into a wider range of projects and services. However, many of our larger applications, such as WordPress, Exchange, Blackboard, HIP, EPrints and Sharepoint, remain disparate from one another, with no sharing of data, except for that provided by the Active Directory. 
 
 Drawing of current AIM process: 
 
 ![Current situation](https://github.com/lncd/AIM-project/raw/master/SSOCurrentSituation.png)
+
+### Anticipated Technical Approach
+
+In the Total Recal project, we released version 1 of the server code but have learned a lot since that project through integrating OAuth with other services. Version 2 of our OAuth server is more representative of our current implementation and fully implements the latest draft (23) of the specification.
+
+At the time of writing, the current institution-wide use of OAuth is limited to Zen Desk, Gateway, the Staff Directory, the Student Union website and Posters@Lincoln. Projects such as Jerome, Orbital, and ON Course, as well as three 3rd year Computer Science student dissertation projects are using it, too. Our intention is to use OAuth alongside Microsoft’s Unified Access Gateway (UAG), using SAML as a bridge to OAuth via the 'SAML 2.0 Bearer Assertion Profiles for OAuth 2.0' specification.
+
+Drawing of intended implementation: 
+
+![Intended situation](https://github.com/lncd/AIM-project/raw/master/SSOIdealSituation.png)
+
+Like our related work on staff profiles, the need to improve access and identity across the institution is becoming increasingly apparent as staff and students become accustomed to the way access and identity works elsewhere on the web. For Lincoln, a combination of OAuth and UAG is the preferred route to achieving consistent sign on across all applications, bridging both the internally facing business applications managed by ICT (e.g. Sharepoint, Exchange, Blackboard) and the more outward facing academic and social applications such as those developed and run by the Library and the Centre for Educational Research and Development.
 
 ## Quality of Proposal and Robustness of Workplan
 
@@ -53,23 +65,14 @@ Dissemination will be both informal and formal. Community engagement will be ong
 
 ### High-level Workplan
 
-### Anticipated Technical Approach
-
-In the Total Recal project, we released version 1 of the server code but have learned a lot since that project through integrating OAuth with other services. Version 2 of our OAuth server is more representative of our current implementation and fully implements the latest draft (23) of the specification.
-
-At the time of writing, the current institution-wide use of OAuth is limited to Zen Desk, Gateway, Staff Directory, Student Union website and Posters@Lincoln. Projects such as Jerome, Orbital, and ON Course, as well as three 3rd year Computer Science student dissertation projects are using it, too. The plan is to use OAuth alongside Microsoft’s Unified Access Gateway (UAG), using SAML as a bridge to OAuth via the 'SAML 2.0 Bearer Assertion Profiles for OAuth 2.0' specification.
-
-Drawing of intended implementation: 
-
-![Intended situation](https://github.com/lncd/AIM-project/raw/master/SSOIdealSituation.png)
+Table goes here.
 
 ### Benefits
 
 We believe this is a distinctive bid that clearly builds on previous JISC-funded projects. It offers a number of benefits to project stakeholders:
 To students and academic staff: To technical staff: 
 To the University of Lincoln: To the university sector: 
-To the public: 
-Like our related work on staff profiles, the need to get access and identity right is becoming increasingly apparent as staff and students become accustomed to the way access and identity works elsewhere on the web. For Lincoln, a combination of OAuth and UAG is the preferred route to achieving consistent sign on across all applications, bridging both the internally facing business applications managed by ICT (e.g. Sharepoint, Exchange, Blackboard) and the more outward facing academic and social applications such as those developed and run by the Library and the Centre for Educational Research and Development.
+To the public: 
 
 ### Stakeholder Analysis
 
@@ -80,12 +83,17 @@ Table goes here.
 The Linkey project will provide two main deliverables:
 
 1. A case study of our implementation of OAuth 2.0 alongside Microsoft's UAG product.
-2. Further development of our open source OAuth 2.0 server, including an implementation of the OAuth SAML specification and other relevant extensions to the main specification. 
-3. 
+2. Continued development of our open source OAuth 2.0 server, including an implementation of the 'SAML 2.0 Bearer Assertion Profiles for OAuth 2.0' specification and other relevant extensions to the main standard. 
+
+Furthermore, we will
 
 ### Risks
 
+bar
+
 ### Sustainability
+
+foo
 
 ### IPR
 
