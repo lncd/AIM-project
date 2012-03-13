@@ -16,7 +16,7 @@ The primary driver for this is to improve the student experience and meet the fo
 
 One of the lasting outcomes of our Total Recal ‘rapid innovation’ project in 2010, was that student and part-time Developer, Alex Bilbie, wrote the first (and only) OAuth 2.0 server for the CodeIgniter PHP development framework that we use. 
 
-Since the Total Recal project, we’ve used OAuth 2.0 for a number of projects: Jerome, data.lincoln.ac.uk, Zendesk, Get Satisfaction, and more recently the Orbital and ON Course projects.  Our single sign-on (SSO) service at https://sso.lincoln.ac.uk is the gateway to our current OAuth 2.0 implementation, which will soon be upgraded to run across two servers for redundancy. Having been researched, developed and implemented under earlier JISC-funded projects, OAuth 2.0 has been formally adopted by central ICT Services, and so staff and students are gradually being given control over what services their identity is bound to and what permissions those services have.
+Since the Total Recal project, we’ve used OAuth 2.0 for a number of projects: Jerome, data.lincoln.ac.uk, Zendesk, Get Satisfaction, and more recently the Orbital project.  Our single sign-on (SSO) service at https://sso.lincoln.ac.uk is the gateway to our current OAuth 2.0 implementation, which will soon be upgraded to run across two servers for redundancy. Having been researched, developed and implemented under earlier JISC-funded projects, OAuth 2.0 has been formally adopted by central ICT Services, and so staff and students are gradually being given control over what services their identity is bound to and what permissions those services have.
 
 ### Anticipated Technical Approach
 
@@ -34,7 +34,7 @@ As such, our current AIM process looks like this:
 
 In the Total Recal project, we released version 1 of the server code but have learned a lot since that project through integrating OAuth with other services and through our API-driven approach to development. Version 2 of our OAuth server is more representative of our current implementation and fully implements the latest draft (23) of the specification. 
 
-At the time of writing, the current institution-wide use of OAuth extends to Zen Desk, Gateway, the Staff Directory, the Student Union website and Posters@Lincoln. Projects such as Jerome, Orbital, and ON Course, as well as three 3rd year Computer Science student dissertation projects are using it, too. Our intention is to use OAuth alongside Microsoft’s Unified Access Gateway (UAG), using SAML as a bridge to OAuth via the 'SAML 2.0 Bearer Assertion Profiles for OAuth 2.0' specification.
+At the time of writing, the current institution-wide use of OAuth extends to Zen Desk, Gateway, the Staff Directory, the Student Union website and Posters@Lincoln. Projects such as Jerome, and Orbital, as well as three 3rd year Computer Science student dissertation projects are using it, too. Our intention is to use OAuth alongside Microsoft’s Unified Access Gateway (UAG), using SAML as a bridge to OAuth via the 'SAML 2.0 Bearer Assertion Profiles for OAuth 2.0' specification.
 
 As such, we anticipate our implementation to look like this: 
 
