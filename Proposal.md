@@ -16,15 +16,15 @@ The primary driver for this is to improve the student experience and meet the fo
 
 One of the lasting outcomes of our Total Recal ‘rapid innovation’ project in 2010, was that student and part-time Developer, Alex Bilbie, wrote the first (and only) OAuth 2.0 server for the CodeIgniter PHP development framework that we use. 
 
+Since the Total Recal project, we’ve used OAuth 2.0 for a number of projects: Jerome, data.lincoln.ac.uk, Zendesk, Get Satisfaction, and more recently the Orbital and ON Course projects.  Our single sign-on (SSO) service at https://sso.lincoln.ac.uk is the gateway to our current OAuth 2.0 implementation, which will soon be upgraded to run across two servers for redundancy. Having been researched, developed and implemented under earlier JISC-funded projects, OAuth 2.0 has been formally adopted by central ICT Services, and so staff and students are gradually being given control over what services their identity is bound to and what permissions those services have.
+
+### Anticipated Technical Approach
+
 Following a recent meeting between ICT and the Library, we agreed to take the following steps to achieving our above stated objectives:
 
 1. To ensure a single, consistent identity for each person, all library (and ICT) applications that we operate internally must have Active Directory sign-in instead of local databases. Almost all of our applications achieve this already. This is the first step towards objective (3).
 2. All web-based applications must offer a consistent looking sign-in screen based on the current http://sso.lincoln.ac.uk design (which uses the Common Web Design). This is the second step towards objective (3).
 3. All systems must implement web-based single sign on via OAuth, SAML or ADFS, using either the Microsoft Unified Access Gateway (UAG) or the OAuth server, which will include the 'SAML 2.0 Bearer Assertion Profiles for OAuth 2.0' specification.
-
-Since the Total Recal project, we’ve used OAuth 2.0 for a number of projects: Jerome, data.lincoln.ac.uk, Zendesk, Get Satisfaction, and more recently the Orbital and ON Course projects.  Our single sign-on (SSO) service at https://sso.lincoln.ac.uk is the gateway to our current OAuth 2.0 implementation, which will soon be upgraded to run across two servers for redundancy. Having been researched, developed and implemented under earlier JISC-funded projects, OAuth 2.0 has been formally adopted by central ICT Services, and so staff and students are gradually being given control over what services their identity is bound to and what permissions those services have.
-
-### Anticipated Technical Approach
 
 Most recently, the Orbital project has extended our OAuth 2.0 server to include some of the optional parts of the specification which had not been in use at Lincoln, such as refresh tokens and using HTTP Authentication with the client credentials flow (https://tools.ietf.org/html/draft-ietf-oauth-v2-23#section-1.3.4). This means that the server is now able to drop straight into a wider range of projects and services. However, many of our larger applications, such as WordPress, Exchange, Blackboard, HIP, EPrints and Sharepoint, remain disparate from one another, with no sharing of application data, except for that provided by the Active Directory. 
 
