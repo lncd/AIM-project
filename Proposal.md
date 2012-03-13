@@ -90,7 +90,11 @@ Furthermore, we will provide draft sections of the final case study in the form 
 
 ### Risks
 
-foo
+The Linkey project is principally proposing to document and share our experience of implementing a new Access and Identity Management solution for the university, which is already planned. Linkey is therefore not the determining factor, but dependent on the existing project and offers value to the sector through what we learn, whatever challenges arise in the implementation.
+
+Clearly there is a risk by not improving our Access and Identity Management processes and systems (e.g. staff and student dissatisfaction due to a poor user experience; the inability to further innovate because of the 'chilling' effect of out-of-date technology). We feel these outweigh any risks internal to the project. Through work done so far, we are confident that we have sufficient skills and experience among team members to undertake each of the deliverables. The project has senior management support from the Head of ICT Services.
+Our main question at this stage is to what extent Microsoft's UAG and our OAuth 2.0 implementation are complimentary services and what Access and Identity processes are each best suited to? We will address this concern through further research and consultation with vendors very early into the project.As always, there is a small risk that team members may be absent during the project due to illness, but this will be mitigated by close collaboration on work packages and sharing of responsibilities as is typical of agile methodologies. The project relies on Alex Bilbie to a large extent, which is a risk to the project should he be unable to work. However, other staff in the university are also familiar with OAuth, having used and contributed to the development of the server. As the project proceeds, this risk will decrease as other staff benefit from our experience of the implementation and can fill in for Alex if need be.
+We have worked on a number of previous projects, which has given us confidence in our proposed method and approach, but there are still areas specific to the domain of Access and Identity Management, which we need to investigate more thoroughly. Through close and regular engagement with the JISC community, we hope to receive valuable peer-review from established experts in this domain. From the point of view of our ICT systems, many of the technological and related cultural changes are being worked through and positively demonstrated in our experience on other projects such as Zen Desk, the Gateway and Orbital.
 
 ### Sustainability
 
@@ -124,7 +128,7 @@ foo
 
 ## Previous Experience of the Project Team
 
-Alex Bilbie: Developer. Alex is a developer for the online services team within IT Services and a part time Computer Science student. He has worked on the JISC-funded JISCPress, Total Recal and Linking You projects. He developed the Common Web Design and the university’s OAuth 2.0 server. He is a contributor to the CodeIgniter PHP framework and has also contributed to the HTML5 Boilerplate framework, WordPress and the OAuth 2.0 specification.
+Alex Bilbie: Developer. Alex is a developer for the online services team within IT Services and a part time Computer Science student, finishing his final year. He has worked on the JISC-funded JISCPress, Total Recal and Linking You projects. He developed the Common Web Design and the university’s OAuth 2.0 server. He is a contributor to the CodeIgniter PHP framework and has also contributed to the HTML5 Boilerplate framework, WordPress and the OAuth 2.0 specification.
 
 Dave Masterson: Head of Electronic Library Services. Dave has responsibility over all technical, electronic, systems, and acquisitions/cataloguing services in the Library. Dave was recently charged with improving the user experience of library applications and will act as the Principal User on the Linkey project, co-ordinating other user engagement as required.
 
