@@ -130,7 +130,7 @@ foo
 
 ## Previous Experience of the Project Team
 
-Alex Bilbie (http://phone.online.lincoln.ac.uk/abilbie): Developer. Alex is a developer for the online services team within IT Services and a part-time undergraduate Computer Science student, finishing his final year. He has worked on the JISC-funded JISCPress, Total Recal and Linking You projects. He developed the university's Common Web Design (http://cwd.online.lincoln.ac.uk) and the university’s OAuth 2.0 server. He is a contributor to the CodeIgniter PHP framework and has also contributed to the HTML5 Boilerplate framework, WordPress and the OAuth 2.0 specification.
+Alex Bilbie (http://phone.online.lincoln.ac.uk/abilbie): Developer. Alex is a developer for the online services team within IT Services and a part-time undergraduate Computer Science student, finishing his final year. He has worked on the JISC-funded JISCPress, Total Recal and Linking You projects. He developed the university's Common Web Design (http://cwd.online.lincoln.ac.uk) and the university’s OAuth 2.0 server. He is a contributor to the CodeIgniter PHP framework and has also contributed to the HTML5 Boilerplate framework, WordPress and the OAuth 2.0 specification. Alex was invited to talk about OAuth at the Eduserv Federated Access Management conference November 2011 (http://www.slideshare.net/alexbilbie/oauth-20).
 
 Dave Masterson (http://phone.online.lincoln.ac.uk/dmasterson): Head of Electronic Library Services. Dave has responsibility over all technical, electronic, systems, and acquisitions/cataloguing services in the Library. Dave was recently charged with improving the user experience of library applications and will act as the Principal User on the Linkey project, co-ordinating other user engagement as required.
 
