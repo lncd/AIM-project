@@ -1,3 +1,11 @@
+====
+
+NOTE: This is not the final, final version of the proposal. If you're looking for that, you want the [PDF](https://github.com/lncd/AIM-project/blob/master/Linkey%20JISC%2001-12%20DI%20Proposal.pdf?raw=true)
+
+This document is what the bid looked like before it got copied into Word for formatting and finishing.
+
+====
+
 ## Cover sheet
 
 See separate file

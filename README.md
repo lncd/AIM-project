@@ -8,7 +8,7 @@ This project will provide a detailed case study of the use of OAuth as an author
 
 Our intention is to show how OAuth 2.0 can be used as part of an access and identity environment in higher education that improves the student experience by enabling:
 
-* A consistent sign-in experience
+* A consistent and user-centric sign-in experience
 
 * A richer exchange of user information between applications
 
